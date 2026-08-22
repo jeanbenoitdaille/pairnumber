@@ -1,7 +1,38 @@
-# pairnumber
-Créer une liste paire de 1 à 100
-Dans cet exercice, on pousse un peu plus loin encore la fonction range, en fournissant un troisième argument, qui va indiquer à la fonction range l'écart que l'on veut entre chaque nombre.
+# Pair Numbers
 
-Dans cet exemple-ci, on indique un écart de 2, ce qui aura comme effet de ne pas inclure les nombres impairs dans notre liste (puisque l'on commence à 2).
+Exercice Python sur la génération de nombres pairs avec `range()`.
 
-Un dernier point auquel il fallait faire attention là encore : pour intégrer le nombre 100 dans la liste, il fallait indiquer 101 comme deuxième argument, car la fonction range s'arrête à n - 1.
+## Objectif pédagogique
+
+Manipuler :
+
+- `range(start, stop, step)` ;
+- un pas d’incrémentation ;
+- la conversion d’un `range` en liste ;
+- `print()`.
+
+## Fonctionnement
+
+Le script génère les nombres pairs de `2` à `100` inclus grâce à :
+
+```python
+range(2, 101, 2)
+```
+
+## Fichier principal
+
+`main.py`
+
+## Exécution
+
+```bash
+python main.py
+```
+
+## Statut
+
+Exercice d’apprentissage historique.
+
+## Consolidation prévue
+
+Candidat à une future fusion dans `learning-python/basics/range-and-sequences/`.
